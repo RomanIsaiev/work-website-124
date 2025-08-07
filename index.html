@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>App</title>
+    <title>Мастерская Астрологии</title>
     <link
       rel="stylesheet"
       href="node_modules/modern-normalize/modern-normalize.css"
@@ -11,10 +11,437 @@
     <link rel="stylesheet" href="./src/css/styles.css" />
   </head>
   <body>
-    <header class="header"><div class="container"></div></header>
     <main>
-      <section></section>
+      <section class="hero">
+        <div class="container">
+          <h1 class="title">Мастерская Астрологии</h1>
+          <div class="wrapper">
+            <p class="wrap-title">Живое пространство практики и роста</p>
+            <p class="wrap-text">
+              Каждую неделю — эфиры, обсуждения и глубокая работа с
+              астрологической картиной мира
+            </p>
+            <picture>
+              <source
+                srcset="
+                  ./src/img/hero/author-1x.png 1x,
+                  ./src/img/hero/author-2x.png 2x
+                "
+                width="90"
+                height="auto" />
+              <img
+                class="hero-author"
+                src="./src/img/hero/author-1x.png"
+                alt="item image"
+                width="90"
+                height="auto"
+            /></picture>
+          </div>
+          <div class="wrapper-btn">
+            <p class="wrap-text-ins">
+              Без автосписаний. Без случайных людей. Только вы, осознанность и
+              настоящая вовлечённость
+            </p>
+            <a class="btn" href="">Подробнее</a>
+          </div>
+        </div>
+      </section>
+      <section class="what-is-it">
+        <div class="container">
+          <h2 class="title">Что это?</h2>
+          <p class="desc">
+            Мастерская Астрологии — это не клуб пассивного слушания
+          </p>
+          <p class="text">
+            Это пространство для тех, кто размышляет, задаёт вопросы, принимает
+            решения осознанно и развивается
+          </p>
+          <ul class="list">
+            <li class="list-item">
+              <img src="./src/img/heart.svg" alt="heart" width="28" />
+              <p class="item-text">Еженедельные эфиры</p>
+            </li>
+            <li class="list-item">
+              <img src="./src/img/heart.svg" alt="heart" width="28" />
+              <p class="item-text">Актуальные астрологические разборы</p>
+            </li>
+            <li class="list-item">
+              <img src="./src/img/heart.svg" alt="heart" width="28" />
+              <p class="item-text">Глубокие обсуждения</p>
+            </li>
+            <li class="list-item">
+              <img src="./src/img/heart.svg" alt="heart" width="28" />
+              <p class="item-text">Пространство живой включённости</p>
+            </li>
+          </ul>
+          <p class="text width">
+            Я не хочу, чтобы вы просто «зашли и забыли». Это клуб для тех, кому
+            важно здесь и сейчас. Если вам по пути — я искренне рада
+          </p>
+        </div>
+      </section>
+      <section class="for-whom">
+        <div class="container">
+          <picture>
+            <source
+              srcset="
+                ./src/img/for-whom/sticker-1x.png 1x,
+                ./src/img/for-whom/sticker-2x.png 2x
+              "
+              width="90"
+              height="auto" />
+            <img
+              class="whom-stick"
+              src="./src/img/for-whom/sticker-1x.png"
+              alt="item image"
+              width="90"
+              height="auto"
+          /></picture>
+          <h2 class="title">Для кого?</h2>
+          <ul class="list">
+            <li class="list-item">
+              Для тех, кто
+              <span
+                >хочет быть в курсе реальных астрологических процессов,</span
+              >
+              а не следовать поверхностным трендам
+            </li>
+            <li class="list-item">
+              Для тех, кто <span>готов практиковать, думать и развиваться</span>
+            </li>
+            <li class="list-item">
+              Для тех, кто
+              <span>не коллекционирует курсы, а работает с собой</span>
+            </li>
+            <li class="list-item">
+              Для наблюдателей и практиков, которым важно
+              <span>глубже чувствовать и понимать происходящее</span>
+            </li>
+            <li class="list-item">
+              Для всех, кто хочет быть в пространстве
+              <span>живого смысла и роста</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="why-pay">
+        <div class="wrapper">
+          <div class="container">
+            <h2 class="title">Почему только помесячная оплата?</h2>
+            <p class="desc">
+              Потому что это — не архив, не марафон, не «на всякий случай»
+            </p>
+            <p class="text">
+              Я хочу видеть в пространстве только тех, кто
+              <span>действительно включён:</span>
+            </p>
+            <div class="wrap-list">
+              <picture>
+                <source
+                  srcset="
+                    ./src/img/why-pay/sticker-1x.png 1x,
+                    ./src/img/why-pay/sticker-2x.png 2x
+                  "
+                  width="62"
+                  height="auto" />
+                <img
+                  class="pay-stick"
+                  src="./src/img/why-pay/sticker-1x.png"
+                  alt="item image"
+                  width="62"
+                  height="auto"
+              /></picture>
+              <ul class="list">
+                <li class="list-item">
+                  Вы платите ежемесячно — значит, вам это важно
+                </li>
+                <li class="list-item">Вы участвуете — значит, вы растёте</li>
+                <li class="list-item">
+                  Вы продолжаете — значит, вы идёте дальше
+                </li>
+              </ul>
+            </div>
+            <p class="important">
+              ❗ Пропустили оплату — вернуться нельзя. Это правило создаёт поток
+              и честную динамику в группе
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="formats">
+        <div class="container">
+          <h2 class="title">Форматы участия</h2>
+          <ul class="format-list">
+            <li class="format-item">
+              <div class="format-title-box">
+                <p class="format-title">Тариф “Основа”</p>
+                <p class="format-desc">
+                  Для тех, кто хочет практиковать и развиваться в сообществе
+                </p>
+                <picture>
+                  <source
+                    srcset="
+                      ./src/img/formats/format-01-1x.png 1x,
+                      ./src/img/formats/format-01-2x.png 2x
+                    "
+                    width="69"
+                    height="auto" />
+                  <img
+                    class="pay-stick"
+                    src="./src/img/formats/format-01-1x.png"
+                    alt="item image"
+                    width="69"
+                    height="auto"
+                /></picture>
+              </div>
+              <div class="format-include">
+                <p class="include-title">Включено:</p>
+                <ul class="include-list">
+                  <li class="include-item">
+                    ✅ Прогноз на месяц: глубокий анализ тенденций и ключевых
+                    событий
+                  </li>
+                  <li class="include-item">
+                    ✅ Еженедельные эфиры (суббота): разборы карт событий,
+                    стран, личностей
+                  </li>
+                  <li class="include-item">
+                    ✅ Тематические эфиры: работа с состояниями (тревога, вина,
+                    агрессия и др.)
+                  </li>
+                  <li class="include-item">
+                    ✅ Чат участников: живое обсуждение, обмен опытом
+                  </li>
+                  <li class="include-item">
+                    ✅ Доступ к записям текущего месяца
+                  </li>
+                  <li class="include-item">
+                    ✅ Возможность задать вопрос к эфиру
+                  </li>
+                </ul>
+                <p class="include-recom">
+                  С рекомендациями по финансам, отношениям, здоровью. И — с
+                  акцентами по дням
+                </p>
+                <div class="price-box">
+                  <p class="old-price">199 €/мес</p>
+                  <p class="new-price">99 €/мес</p>
+                </div>
+              </div>
+              <a class="btn-link-container" href="">
+                <p class="btn-link">Присоединиться</p>
+                <div class="btn-star-container">
+                  <picture
+                    ><source
+                      srcset="
+                        ./src/img/star-1x.png 1x,
+                        ./src/img/star-2x.png 2x
+                      "
+                      width="80"
+                      height="80" />
+                    <img
+                      class="btn-star-image"
+                      src="./src/img/star-1x.png"
+                      alt="star-sale"
+                      width="80"
+                      height="80"
+                  /></picture>
+                  <p class="btn-sale-text">
+                    скидка <br />
+                    <span>-50%</span>
+                  </p>
+                </div>
+              </a>
+              <div id="countdown-one" class="countdown">
+                <div class="countdown-number">
+                  <span class="minutes countdown-time"></span>
+                  <div class="countdown-label minutes-label">м</div>
+                </div>
+                <div><span class="countdown-doubledot">|</span></div>
+                <div class="countdown-number">
+                  <span class="seconds countdown-time"></span>
+                  <div class="countdown-label seconds-label">с</div>
+                </div>
+                <div><span class="countdown-doubledot">|</span></div>
+                <div class="countdown-number">
+                  <span class="milliseconds countdown-time"></span>
+                  <div class="countdown-label milliseconds-label">мс</div>
+                </div>
+              </div>
+            </li>
+            <li class="format-item">
+              <div class="format-title-box">
+                <p class="places">5 мест</p>
+                <p class="format-title">Тариф “Наставничество”</p>
+                <p class="format-desc">
+                  Для тех, кто хочет точных ответов, личного направления и
+                  глубокой работы с собой
+                </p>
+                <picture>
+                  <source
+                    srcset="
+                      ./src/img/formats/format-02-1x.png 1x,
+                      ./src/img/formats/format-02-2x.png 2x
+                    "
+                    width="90"
+                    height="auto" />
+                  <img
+                    class="pay-stick"
+                    src="./src/img/formats/format-02-1x.png"
+                    alt="item image"
+                    width="90"
+                    height="auto"
+                /></picture>
+              </div>
+              <div class="format-include">
+                <p class="include-title">Включено:</p>
+                <ul class="include-list">
+                  <li class="include-item">✅ Включено всё из “Основы”</li>
+                  <li class="include-item">
+                    ✅ Индивидуальный разбор от меня <br />(1 раз в месяц, в
+                    видео/аудио/тексте)
+                    <span
+                      ><br />
+                      — Актуальный период в вашей карте <br />— Ваша точка роста
+                      <br />— Карма, ситуации, выборы</span
+                    >
+                  </li>
+                  <li class="include-item">✅ Приоритет в ответах на эфирах</li>
+                  <li class="include-item">
+                    ✅ Возможность предложить тему для разбора
+                  </li>
+                  <li class="include-item">✅ Закрытая форма обратной связи</li>
+                  <li class="include-item"></li>
+                </ul>
+                <p class="include-recom">
+                  Формат для тех, кто действительно готов к трансформации и
+                  работает на уровне причин
+                </p>
+                <div class="price-box">
+                  <p class="old-price">999 €/мес</p>
+                  <p class="new-price">499 €/мес</p>
+                </div>
+              </div>
+              <a class="btn-link-container" href="">
+                <p class="btn-link">Присоединиться</p>
+                <div class="btn-star-container">
+                  <picture
+                    ><source
+                      srcset="
+                        ./src/img/star-1x.png 1x,
+                        ./src/img/star-2x.png 2x
+                      "
+                      width="80"
+                      height="80" />
+                    <img
+                      class="btn-star-image"
+                      src="./src/img/star-1x.png"
+                      alt="star-sale"
+                      width="80"
+                      height="80"
+                  /></picture>
+                  <p class="btn-sale-text">
+                    скидка <br />
+                    <span>-50%</span>
+                  </p>
+                </div>
+              </a>
+              <div id="countdown-two" class="countdown">
+                <div class="countdown-number">
+                  <span class="minutes countdown-time"></span>
+                  <div class="countdown-label minutes-label">м</div>
+                </div>
+                <div><span class="countdown-doubledot">|</span></div>
+                <div class="countdown-number">
+                  <span class="seconds countdown-time"></span>
+                  <div class="countdown-label seconds-label">с</div>
+                </div>
+                <div><span class="countdown-doubledot">|</span></div>
+                <div class="countdown-number">
+                  <span class="milliseconds countdown-time"></span>
+                  <div class="countdown-label milliseconds-label">мс</div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="short-info">
+        <div class="wrapper">
+          <div class="container">
+            <picture
+              ><source
+                srcset="
+                  ./src/img/short/sticker-1x.png 1x,
+                  ./src/img/short/sticker-2x.png 2x
+                "
+                width="100"
+                height="100" />
+              <img
+                class="short-stick"
+                src="./src/img/short/sticker-1x.png"
+                alt="emoji"
+                width="100"
+                height="100"
+            /></picture>
+            <h2 class="short-title">Кратко: о чём эта Мастерская?</h2>
+            <p class="short-subtitle">Здесь мы:</p>
+            <ul class="list">
+              <li class="list-item">
+                <img src="./src/img/heart.svg" alt="heart" width="28" />
+                <p class="item-text">
+                  работаем с глобальной и личной картиной мира
+                </p>
+              </li>
+              <li class="list-item">
+                <img src="./src/img/heart.svg" alt="heart" width="28" />
+                <p class="item-text">
+                  разбираем карты людей, событий, компаний
+                </p>
+              </li>
+              <li class="list-item">
+                <img src="./src/img/heart.svg" alt="heart" width="28" />
+                <p class="item-text">
+                  учимся чувствовать, анализировать, выбирать
+                </p>
+              </li>
+              <li class="list-item">
+                <img src="./src/img/heart.svg" alt="heart" width="28" />
+                <p class="item-text">
+                  находим ясность в эпоху, где прежние ориентиры больше не
+                  работают
+                </p>
+              </li>
+            </ul>
+            <h2 class="time-title">Время принимать решения по-взрослому</h2>
+            <ul class="time-list">
+              <li class="time-item">
+                Сейчас — не время ждать. Не время «копить знания на потом»
+              </li>
+              <li class="time-item">
+                Мир меняется слишком быстро, чтобы оставаться наблюдателем
+              </li>
+              <li class="time-item">
+                <span>Если вы чувствуете отклик — присоединяйтесь.</span> <br />
+                Без давления. Без обещаний
+              </li>
+              <li class="time-item">
+                Просто потому что
+                <span
+                  >вам важно быть в потоке, видеть глубже и расти
+                  осознанно</span
+                >
+              </li>
+            </ul>
+            <p class="place-text">
+              Это пространство не для всех. <br />
+              <span>Но если вы здесь — возможно, именно вам оно и нужно</span>
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
     <footer class="footer"><div class="container"></div></footer>
+    <script src="./src/js/timer.js" type="module"></script>
   </body>
 </html>
