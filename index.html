@@ -37,12 +37,13 @@
                 height="auto"
             /></picture>
           </div>
+
           <div class="wrapper-btn">
             <p class="wrap-text-ins">
               Без автосписаний. Без случайных людей. Только вы, осознанность и
               настоящая вовлечённость
             </p>
-            <a class="btn" href="">Подробнее</a>
+            <a class="btn" href="#buy">Подробнее</a>
           </div>
         </div>
       </section>
@@ -168,7 +169,7 @@
           </div>
         </div>
       </section>
-      <section class="formats">
+      <section class="formats" id="buy">
         <div class="container">
           <h2 class="title">Форматы участия</h2>
           <ul class="format-list">
@@ -228,7 +229,7 @@
                   <p class="new-price">99 €/мес</p>
                 </div>
               </div>
-              <a class="btn-link-container" href="">
+              <button class="btn-link-container" data-modal-open="modal1">
                 <p class="btn-link">Присоединиться</p>
                 <div class="btn-star-container">
                   <picture
@@ -251,7 +252,7 @@
                     <span>-50%</span>
                   </p>
                 </div>
-              </a>
+              </button>
               <div id="countdown-one" class="countdown">
                 <div class="countdown-number">
                   <span class="minutes countdown-time"></span>
@@ -322,7 +323,7 @@
                   <p class="new-price">499 €/мес</p>
                 </div>
               </div>
-              <a class="btn-link-container" href="">
+              <button class="btn-link-container" data-modal-open="modal1">
                 <p class="btn-link">Присоединиться</p>
                 <div class="btn-star-container">
                   <picture
@@ -345,7 +346,7 @@
                     <span>-50%</span>
                   </p>
                 </div>
-              </a>
+              </button>
               <div id="countdown-two" class="countdown">
                 <div class="countdown-number">
                   <span class="minutes countdown-time"></span>
@@ -441,7 +442,25 @@
         </div>
       </section>
     </main>
-    <footer class="footer"><div class="container"></div></footer>
+    <div class="backdrop is-hidden" data-modal="modal1">
+      <div class="modal">
+        <button type="button" class="close-button" data-modal-close>
+          <img
+            src="./src/img/close-modal-icon.svg"
+            width="30"
+            height="30"
+            alt="close"
+          />
+        </button>
+        <div class="modal-box">
+          <script
+            id="13926bb3b63a5b3e3bcaffcaaacfa2fe0a216451"
+            src="https://vikabardadym.in.ua/pl/lite/widget/script?id=1466029"
+          ></script>
+        </div>
+      </div>
+    </div>
     <script src="./src/js/timer.js" type="module"></script>
+    <script src="./src/js/js-modal.js" type="module"></script>
   </body>
 </html>
